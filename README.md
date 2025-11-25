@@ -64,4 +64,26 @@ print(f"Output shape: {output.shape}")
 
 ---
 
-⚖️ Data & Code Availability
+## ⚖️ Data & Code Availability
+
+### Private Clinical Datasets
+The multi-center clinical datasets (N Center, W Center, H Center) used in this study involve sensitive patient privacy and are subject to **strict institutional ethical governance**. Therefore, the raw imaging data cannot be hosted in this public repository.
+
+### Code Access
+The full training/testing scripts and pre-trained weights are tightly integrated with the internal data structure. To balance reproducibility with compliance:
+* **Core Architecture**: Provided in this repository (`model.py`).
+* **Full Access**: Researchers interested in reproducing the results may request access to the source code and/or data (subject to ethical approval) by contacting the corresponding author.
+
+---
+
+## 📝 Citation
+
+If you find **RccSegmentor** useful for your research or clinical applications, please consider citing our paper:
+
+```bibtex
+@article{RccSegmentor2025,
+  title={RccSegmentor: Advancing Renal Cell Carcinoma Segmentation via Feature Aggregation and Exploration},
+  author={Zhang, Dong and Chen, Sihao and Wang, Lei and Shan, Shuai and Zhang, Yu-Dong},
+  journal={Neurocomputing (Under Review)},
+  year={2025}
+}
