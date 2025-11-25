@@ -27,7 +27,13 @@ The framework follows an encoder-decoder structure:
 1.  **Encoder**: PVTv2 extracts multi-scale features ($X_1, X_2, X_3, X_4$).
 2.  **Bottleneck**: FEM refines shallow features ($X_1$) to filter noise.
 3.  **Decoder**: MFAD aggregates multi-scale features ($X_2, X_3, X_4$) with the refined shallow features.
+---
 
+## 🖼️ Qualitative Results
+
+Visual comparison of segmentation results across five datasets (KiTS23, TCGA-KIRC, H/W/N Centers). **RccSegmentor** (Ours) demonstrates superior boundary delineation compared to other SOTA methods.
+
+![Segmentation Results](results.png)
 ---
 
 ## 🛠️ Usage
