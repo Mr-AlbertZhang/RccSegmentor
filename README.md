@@ -34,6 +34,7 @@ The framework follows an encoder-decoder structure:
 Visual comparison of segmentation results across five datasets (KiTS23, TCGA-KIRC, H/W/N Centers). **RccSegmentor** (Ours) demonstrates superior boundary delineation compared to other SOTA methods.
 
 ![Segmentation Results](results.png)
+
 ---
 
 ## 🛠️ Usage
