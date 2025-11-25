@@ -103,3 +103,10 @@ If you find **RccSegmentor** useful for your research or clinical applications, 
 ## 🙏 Acknowledgement
 
 We thank **Jiangsu Province Hospital** for providing the clinical data and annotation support. We also acknowledge the **TCGA-KIRC** and **KiTS23** open-source communities for their valuable datasets.
+
+---
+
+## 📧 Contact
+
+For any questions or inquiries, please contact:
+**Dong Zhang** (zhangdong@bucea.edu.cn)
