@@ -61,7 +61,7 @@ output = model(input_tensor)
 print(f"Input shape: {input_tensor.shape}")
 print(f"Output shape: {output.shape}")
 # Expected Output: torch.Size([1, 1, 512, 512])
-
+```
 ---
 
 ## ⚖️ Data & Code Availability
