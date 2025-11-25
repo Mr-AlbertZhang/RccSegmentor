@@ -88,7 +88,9 @@ If you find **RccSegmentor** useful for your research or clinical applications, 
   year={2025}
 }
 ```
+
 (Citation details will be updated upon publication)
+
 ---
 
 ## 🙏 Acknowledgement
