@@ -22,7 +22,7 @@
 
 ## 🏗️ Architecture
 
-*(If you have the architecture image, e.g., Figure 2, upload it to the repo and link it here. If not, delete this line)*
+![RccSegmentor Architecture](figure2.png)
 The framework follows an encoder-decoder structure:
 1.  **Encoder**: PVTv2 extracts multi-scale features ($X_1, X_2, X_3, X_4$).
 2.  **Bottleneck**: FEM refines shallow features ($X_1$) to filter noise.
