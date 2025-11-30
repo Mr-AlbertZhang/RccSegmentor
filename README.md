@@ -27,6 +27,22 @@ The framework follows an encoder-decoder structure:
 1.  **Encoder**: PVTv2 extracts multi-scale features ($X_1, X_2, X_3, X_4$).
 2.  **Bottleneck**: FEM refines shallow features ($X_1$) to filter noise.
 3.  **Decoder**: MFAD aggregates multi-scale features ($X_2, X_3, X_4$) with the refined shallow features.
+
+---
+
+## 📂 Project Structure
+
+```text
+RccSegmentor/
+├── architecture.png     # Network architecture diagram (Figure 2)
+├── results.png          # Qualitative segmentation results (Figure 6)
+├── demo.py              # Inference demo script (Random input)
+├── model.py             # Core RccSegmentor model definition
+├── pvtv2.py             # PVTv2 backbone implementation
+├── requirements.txt     # Python dependencies
+├── LICENSE              # MIT License
+└── README.md            # Project documentation
+
 ---
 
 ## 🖼️ Qualitative Results
