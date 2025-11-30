@@ -34,7 +34,7 @@ The framework follows an encoder-decoder structure:
 
 ```text
 RccSegmentor/
-├── architecture.png     # Network architecture diagram (Figure 2)
+├── figure2.png     # Network architecture diagram (Figure 2)
 ├── results.png          # Qualitative segmentation results (Figure 6)
 ├── demo.py              # Inference demo script (Random input)
 ├── model.py             # Core RccSegmentor model definition
